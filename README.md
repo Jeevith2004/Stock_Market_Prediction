@@ -65,6 +65,44 @@ TE1, TE2, TE3, TE5, TE6, DE1, DE2, DE4, DE5, DE6
 
 During the Data Preprocessing phase, a significant number of missing values were identified across multiple features. To ensure data integrity  consistency, mean imputation was applied to fill in the missing values. This approach helped preserve the overall distribution of the data while minimizing potential biases. After imputation, the dataset was re-evaluated to confirm that the adjustments did not distort key statistical properties, ensuring a reliable foundation for further analysis.
 
+ <h2> Dashboard Walkthrough </h2>
+
+ __Executive Summary__`:
+
+ ![Screenshot 2025-04-02 180121](https://github.com/user-attachments/assets/c292741c-9c41-47f5-996c-8ead1ef4330b)
+
+1. KPI Metrics:
+   
+- Market Sentiment (70.56) – Positive Market Outlook
+  Market sentiment represents the overall mood of investors, and a value of 70.56 suggests a highly optimistic market environment. A sentiment score above 50 typically indicates positive investor confidence, 
+  which often leads to increased stock buying activity.
+
+- Volatility Percentage (23.87) – Moderate Market Fluctuations
+  Volatility measures the extent to which stock prices fluctuate over time, and a value of 23.87% indicates moderate price swings. While high volatility (above 30%) suggests increased uncertainty and potential 
+  risk, moderate volatility (20-30%) can indicate a healthy market with active trading. A volatility level in this range suggests that while the market is experiencing price movements, it is not in a highly 
+  unstable phase.
+
+- Maximum Drawdown (-61.21) – Significant Market Crash
+  Maximum drawdown measures the largest peak-to-trough decline in stock prices over a period. A drawdown of -61.21% suggests that at some point, the market lost more than 60% of its value before recovering. This 
+  indicates that there has been a period of extreme market distress.A high drawdown suggests that the market has faced severe turbulence, and long-term investors must consider such risks when making investment 
+  decisions.
+
+- Volume Spike (High Activity) – Increased Trading Volume
+  The label "High Activity" suggests that the market is experiencing a significant increase in trading volume. Increased trading volume usually indicates strong investor participation, which can be triggered by 
+  events such as earnings reports, major policy changes, or economic data releases.
+
+  __Line Chart: Stock Market Trends vs. Interest Rates__
+      This chart shows how different financial indicators, such as stock market performance, interest rates, and commodity prices, interact over time.
+
+- Blue Line (S&P and Market Sentiment):The trend shows that stock prices and market sentiment generally follow each other.When sentiment is high, stock prices rise; when sentiment declines, stock prices fall.
+- Orange Line (DGS10 - 10-Year Treasury Yield):Interest rates seem to have an inverse relationship with stock market sentiment.As Treasury yields increase, the stock market tends to struggle, indicating that 
+  higher interest rates reduce market liquidity and borrowing.
+- Purple Line (Oil Prices):Oil prices show a rising trend from 2014 to 2017, which could signal economic growth or inflation concerns.
+- Other Factors (Gold, DTB3 - 3-Month Treasury Bill):Gold is typically considered a safe-haven asset.If gold prices rise while the stock market declines, it suggests investors are seeking safety.
+
+  
+2.__Stock Performance and Sector Insights__:
+![Screenshot 2025-04-02 180130](https://github.com/user-attachments/assets/c656cd71-fc2f-451a-9d87-3ba7cd09c239)
 
 
    <h2> Exploratory Data Analysis </h2> 

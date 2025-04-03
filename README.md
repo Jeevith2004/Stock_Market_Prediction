@@ -70,6 +70,7 @@ During the Data Preprocessing phase, a significant number of missing values were
  __Executive Summary__`:
 
  ![Screenshot 2025-04-02 180121](https://github.com/user-attachments/assets/c292741c-9c41-47f5-996c-8ead1ef4330b)
+ 
 
 1. KPI Metrics:
    
@@ -104,8 +105,81 @@ During the Data Preprocessing phase, a significant number of missing values were
 2.__Stock Performance and Sector Insights__:
 ![Screenshot 2025-04-02 180130](https://github.com/user-attachments/assets/c656cd71-fc2f-451a-9d87-3ba7cd09c239)
 
+__Trading Volume vs. Price Movements__
 
-   <h2> Exploratory Data Analysis </h2> 
+-> Insights:
+
+- Trading volume and price movement do not always correlate directly. In 2011, __the highest volume did not result in the highest closing prices, indicating speculative trading__.__Periods of declining volume 
+  (2012- 2014) often indicate reduced market activity__, possibly due to investors waiting for clearer signals.Spikes in trading volume (2011, 2015) are likely associated with key economic events, earnings 
+   reports, or major market movements.2016-2017 shows a __declining trading volume (2.6)__, indicating possible investor caution or reduced speculative activity, despite stable closing prices.
+
+__Stock Price Trend with EMA Indicators__
+
+-> Insights:
+
+The __EMA crossover confirms bullish momentum__, meaning short-term moving averages are above long-term ones.Steady price increase after 2012 suggests consistent market confidence and reduced volatility.__EMA indicators help traders identify entry and exit points__. A bullish EMA crossover (shorter EMA crossing above longer EMA) signals a good entry point for buying.No visible EMA 200 crossovers suggest that __no major bearish reversal has occurred yet__.
+
+3. __Stockmarket Trend and microeconomics influences__
+   ![Screenshot 2025-04-02 180139](https://github.com/user-attachments/assets/fe3b1bed-d368-45ae-a0ad-5803efe9737f)
+
+ __Momentum vs. Rate of Change (ROC)__
+
+ ->Insights:
+  
+  Stock price momentum fluctuates within a narrow range most of the time, suggesting that the market does not experience extreme momentum shifts frequently.Outliers indicate sudden price spikes or crashes, which 
+  may be due to market news, economic events, or investor reactions.A balanced distribution suggests that the market does not favor either bullish or bearish momentum significantly, meaning trading strategies 
+  relying on ROC should consider external macroeconomic factors.Traders can use this information to identify potential breakouts or trend reversals by focusing on extreme values that indicate unusual market 
+  behavior.
+
+  __Stock Market Growth Trend Over Time__
+
+  ->  Insights:
+    
+    The sharp rise in stock prices post-2009 suggests a strong economic recovery phase, possibly due to stimulus measures or improved corporate earnings.Steady growth from 2011 to 2015 reflects market stability 
+    and investor confidence, indicating a bullish sentiment during this period.The slight slowdown around 2015 could be linked to external factors like economic policies, interest rate changes, or global market 
+    uncertainty.Overall, the stock market has followed a long-term growth trend, making it an attractive investment avenue for long-term investors.
+
+   __Stock Market vs. Bond Yields Over Time__
+
+   -> Insights:
+
+   Stock markets tend to be more volatile than bond yields, as seen from the fluctuations in stock indices.The peak in stock indices around 2010-2011 suggests a strong market rebound, potentially after a 
+   financial crisis or recession.The decline in 2015 could be due to economic factors like interest rate hikes, inflation concerns, or policy changes.Bond yields showed relatively lower fluctuations, indicating 
+   their role as stable investment options during stock market volatility.A negative correlation is visible at times—when stock markets decline (2012, 2015), bond yields remain steady or slightly rise, 
+   suggesting that investors shift to bonds during stock market downturns.
+
+  4. __Interest rate,Oil,Gold and Impact on stocks__
+     ![Screenshot 2025-04-02 180154](https://github.com/user-attachments/assets/da212e5c-a645-44be-81e1-a7e3372910d7)
+
+   **Interest Rates vs. Stock Market Performance**
+
+    -> Insights
+    
+ Stock market performance is more volatile than interest rates, as seen from the fluctuations in S&P 500 and NYSE.Stock markets peaked in __2010-2011 and 2013, indicating economic expansion__, 
+ while the  __decline in 2015 suggests a temporary economic slowdown__.Despite stock market fluctuations, interest rates remained relatively stable, indicating that rate hikes or cuts may not have been the 
+ primary drivers of market movements.__Long-term interest rates (DGS10) showed mild fluctuations__, suggesting a gradual adjustment in economic policies rather than sudden changes affecting the stock market.A 
+ strong stock market recovery in 2016 suggests renewed investor confidence, possibly due to economic stimulus or corporate earnings improvements.
+
+   __Impact of Oil Prices on S&P 500__
+
+   -> Insights
+
+     There is a clear positive correlation between oil prices and stock market performance, __meaning higher oil prices are generally associated with rising S&P 500 levels__.This correlation suggests that oil n 
+    price increases may reflect strong economic demand, leading to higher stock prices.__Outliers indicate that in some cases, extreme oil price fluctuations caused market instability__.Investors should monitor 
+    oil price trends as they can serve as an early indicator of stock market movements.Periods of __falling oil prices may signal economic weakness__, which could impact stock markets negatively.
+
+   __Stock Market and Commodity Trends Over Time__
+
+   -> Insights:
+   Stock market trends closely follow oil prices, meaning both assets tend to perform well in strong economic conditions.Gold acts as a safe-haven asset, moving inversely to stocks and oil, suggesting investors 
+   shift to gold during economic uncertainty.The 2015 decline in both stocks and oil suggests a broad market downturn, possibly due to global economic slowdowns or supply-demand imbalances in oil.The recovery in 
+   2016 across stocks and oil suggests improved economic conditions, possibly due to fiscal policies or rising demand.Commodities (oil & gold) provide diversification benefits—gold offers protection during 
+   downturns, while oil moves in line with economic growth.
+
+
+
+
+ <h2> Exploratory Data Analysis </h2> 
 
 -  **Python & Pandas** were used for cleaning and analyzing stock trends.
 -  **Matplotlib & Seaborn** were used for visualizing stock movements.
